@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    font-family: monserrat, Helvetica, sans-serif;
+}
+
+body {
+    background: #3ab551; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #3ab551 0%, #53aca8 50%, #673193 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3ab551), color-stop(50%,#53aca8), color-stop(100%,#673193)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  #3ab551 0%,#53aca8 50%,#673193 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  #3ab551 0%,#53aca8 50%,#673193 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  #3ab551 0%,#53aca8 50%,#673193 100%); /* IE10+ */
+    background: linear-gradient(45deg,  #3ab551 0%,#53aca8 50%,#673193 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3ab551', endColorstr='#673193',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+    #bg {
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(../images/bg.jpg);
+        opacity: 0.3;
+    }
+
+    #text {
+        display: table;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+        #text > div {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+        }
+
+h1, h2 {
+    text-shadow: 0px 0px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    font-size: 20vw;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: white;
+}
+
+h2 {
+    font-size: 2.2vw;
+    letter-spacing: 0.1em;
+    color: white;
+    font-weight: bold;
+    margin-left: -57vw;
+    margin-top: -1vw;
+    text-transform: uppercase;
+    opacity: 0.7;
+}
