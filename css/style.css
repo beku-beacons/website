@@ -22,6 +22,8 @@ body {
         left: 0px;
         background-repeat: no-repeat;
         background-size: cover;
+
+        /* photo: https://www.flickr.com/photos/jantito/3655890181 */
         background-image: url(../images/bg.jpg);
         opacity: 0.3;
     }
