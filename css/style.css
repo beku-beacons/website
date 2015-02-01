@@ -46,7 +46,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 20vw;
+    font-size: 15vw;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: white;
@@ -57,7 +57,7 @@ h2 {
     letter-spacing: 0.1em;
     color: white;
     font-weight: bold;
-    margin-left: -57vw;
+    margin-left: -40vw;
     margin-top: -1vw;
     text-transform: uppercase;
     opacity: 0.7;
