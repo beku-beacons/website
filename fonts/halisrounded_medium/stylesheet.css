@@ -1,0 +1,37 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2015 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Ahmet Altun
+ * License URL: http://www.fontspring.com/licenses/ahmet-altun/webfont
+ *
+ *
+ */
+
+@font-face {
+    font-family: 'halis_rmedium';
+    src: url('HalisR-Medium-webfont.eot');
+    src: url('HalisR-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('HalisR-Medium-webfont.woff2') format('woff2'),
+         url('HalisR-Medium-webfont.woff') format('woff'),
+         url('HalisR-Medium-webfont.ttf') format('truetype'),
+         url('HalisR-Medium-webfont.svg#halis_rmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
